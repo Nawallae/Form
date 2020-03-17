@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+	<head>
+		<title>CSS Layouts</title>
+		<meta charset="utf-8">
+		<link href="homecs.css" rel="stylesheet" type="text/css"/>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	
+	
+	</head>
+	<body>
+	
+		<header>
+			<nav>
+				<h1 class="title">CoVID-19 Somalia</h1></br>
+						
+			
+		</header>
+			
+		<div class="continer">
+		<div class="row">
+			<div class="col1 col-sm-4 col-xs-12"><a href="patientform.html">Patient form</div>
+			<div class="col2 col-sm-4 col-xs-6"><a href="procedures.html">Procedures</div>
+			<div class="col3 col-sm-4 col-xs-6"><a href="currentstate.html">Current State</div>
+		</div></a></br>
+			
+		
+			<h3 class="p-title" style="text-align: center"><strong>Patient Form</strong></h3>
+			<form class="form">
+			
+			<h3 class="h-form" style="text-align:center; font-size: 30px"><u>Patient Information</u></h3></br>
+				<label class="first_Name"> First Name:</label>
+					<input class="first_Name" type="text" name="first_Name" style="width: 180px">
+				<label class="middle_Name"> Second Name:</label>
+					<input class="middle_Name" type="text" name="middle_Name" style="width: 180px">
+				<label class="last_Name"> Third Name:</label>
+					<input class="last_Name" type="text" name="last_Name" style="width: 180px"></br>
+				<label class="gender"> Gender:</label>
+					<select name="dropdown">
+						<option value="Other" selected>Other</option>
+						<option value="Male" selected>Male</option>
+						<option value="Female" selected>Female</option></select>
+				<label class="age"> Age:</label>
+					<input class="age" type="text" name="age" style="width: 50px"></br>
+				<label class="primary_Phone_Number"> Primary Phone Number:</label>
+					<input class="primary_Phone_Number" type="text" name="primary_Phone_Number" style="width: 180px">
+				<label class="phones"> Other Phone Numbers:</label>
+					<input class="phones" type="text" name="phones" style="width: 180px"></br>
+				<label class="work"> Workplace:</label>
+					<input class="work" type="text" name="text" style="width: 300px"></br>
+				<label class="family"> Family:</label>
+					<input class="family" type="text" name="family" style="width: 400px"></br>
+				<label class="summary"> Summary of illness:</label>
+					</br><textarea class="summary" style="width: 500px; height: 100px"></textarea></br>
+				<label class="status"> Status:</label>
+					<input class="status" type="text" name="text" style="width: 300px">
+					</br></br></br>
+								
+				
+				<h3 class="h-form" style="text-align:center; font-size: 30px"><u>Address</u></h3>
+				<label class="residence"> Residence:</label>
+					<input class="residence" type="text" name="residence" style="width:400px">
+				<label class="road"> Road:</label>
+					<input class="road" type="text" name="road" style="width: 250px"></br>
+				<label class="burough"> Borough:</label>
+					<input class="burough" type="text" name="burough" style="width: 150px">
+				<label class="city"> City:</label>
+					<input class="road" type="text" name="road" style="width: 150px"></br>
+				<label class="Region"> Region:</label>
+					<input class="region" type="text" name="region" style="width: 150px">
+				
+				<label class="residenceTypes"> Neighbourhood Type:</label>
+					<select name="dropdown">
+						<option value="Rural" selected>Rural</option>
+						<option value="urban" selected>Urban</option></select>
+				
+				<label class="residenceTpes"> Residences Type:</label>
+					<select name="dropdown">
+						<option value="alone" selected>House, Alone</option>
+						<option value="shared" selected>House, Shared</option>
+						<option value="alone" selected>Apartment, Alone</option>
+						<option value="shared" selected>Apartment, Shared</option></select></br>
+				<label class="co_Dwellers"> Individuals in home</label>
+					<input class="co_Dwellers" type="text" name="co_Dwellers" style="width: 50px">
+				</br></br>
+				
+				
+				<h3 class="work" style="text-align:center; font-size: 30px"><u>Work</u></h3></br>
+				<label class="profession">Profession</label>
+					<input class="profession" type="text" name="profession" style="width: 300px">
+				<label class="location">Location</label>
+					<input class="location" type="text" name="location" style="width: 400px"></br>
+				<label class="last_Visit_Date">Last Date Visited</label>
+					<input class="last_Visit_Date" type="text" name="last_Visit_Date" style="width: 100px" placeholder="YY/MM/DD">
+				<label class="last_Visit_Time">Last Time Visited</label>
+					<input class="last_Visit_Time" type="text" name="last_Visit_Time" style="width: 50px">
+				<label class="last_Visit_Duration">Duration of Last Visit</label>
+					<input class="last_Visit_Duration" type="text" name="last_Visit_Duration" style="width: 50px" placeholder="hrs">
+				<label class="location_Type">Location Type</label>
+					<select name="dropdown">
+						<option value="general" selected>General</option>
+						<option value="business" selected>Business</option>
+						<option value="social" selected>Social</option>
+						<option value="institutional" selected>Institutional</option>
+						<option value="religious" selected>Religious</option></select>
+				</br></br></br>
+				
+				<h3 class="h-form" style="text-align:center; font-size: 30px"><u>Recent Contacts</u></h3></br>
+				<h5 class="contact">Individual 1</h5>
+				
+				<label class="relationship">Relationship</label>
+					<input class="relationship" type="text" name="relationship" style="width: 220px"></br>
+				<label class="first_Name">First Name</label>
+					<input class="first_Name" type="text" name="first_Name" style="width: 180px">
+				<label class="middle_Name">Second Name</label>
+					<input class="middle_Name" type="text" name="middle_Name" style="width: 180px">
+				<label class="last_Name">Third Name</label>
+					<input class="last_Name" type="text" name="last_Name" style="width: 180px"></br>
+				<label class="time">Time</label>
+					<input class="time" type="text" name="time" style="width: 50px">
+				<label class="location">Location</label>
+					<input class="location" type="text" name="location" style="width: 300px">
+				<label class="duration">Duration</label>
+					<input class="duration" type="text" name="duration" style="width: 180px"></br>
+				
+				
+				<label class="exposure_type">Exposure Type</label>
+					<input class="exposure_type" type="text" name="exposure_type" style="width:200px"></br>
+				<label class="hand_Shake">Handshake</label>
+					<input class="hand_Shake" type="checkbox" name="hand_Shake">
+				<label class="physical">Physical</label>
+					<input class="physical" type="checkbox" name="physical">
+				<label class="hug">Hug</label>
+					<input class="hug" type="checkbox" name="hug">
+				<label class="general_Touch">General Touch</label>
+					<input class="hug" type="checkbox" name="general_Touch">
+				<label class=long_Duration_Body_Contact">Body Contact (long Duration)</label>
+					<input class="long_Duration_Body_Contact" type="checkbox" name="long_Duration_Body_Contact"></br>
+					
+					
+				<label class="visitations">Amount of Times Visited during last 14 days</label>
+					<input class="visitations" type="text" name="visitations" style="width: 50px">
+				<label class="from">From</label>
+					<input class="from" type="text" name="from" style="width:100px" placeholder="YY/MM/DD">
+				<label class="to">To</label>
+					<input class="to" type="text" name="to" style="width:100px" placeholder="YY/MM/DD"></br></br></br>
+					
+						
+				<input class="submit" type="submit" value="Submit">
+			</form>
+	
+	
+	</br><footer>2020 CoVID19Somalia</footer>
+		
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	</body>
+</html>

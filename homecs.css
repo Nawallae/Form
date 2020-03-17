@@ -1,0 +1,218 @@
+body {
+	margin: 0;
+}
+
+header {
+	background: #000000;
+	color: white;
+	padding: 30px 15px 1px 15px;
+	text-align: center;
+	font-size: 16px;
+	height: 120px;
+}
+
+.title {
+	font-family: Times new roman;
+	font-size: 65px;
+
+}
+
+header h1 {
+	margin: 0;
+	display: inline;
+	font-size: 50px;
+}
+
+nav ul {
+	margin: 0;
+	display: inline;
+	padding: 0;
+}
+
+nav ul li {
+	background: #004;
+	color: white;
+	display: inline-block;
+	list-style-type: none;
+	margin: 1%;
+	padding: 0.2% 2%;
+	border-radius: 20px;
+}
+
+nav ul li a {
+		color: white;
+}
+.fixed-top {
+		color: white;
+		font-size: 11px;
+}
+
+.col1 {
+	background: #333D79FF;
+	color: white;
+	text-align: center;
+	font-size: 18px;
+}
+
+.col2 {
+	background: #333D79FF;
+	color: white;
+	text-align: center;
+	font-size: 18px;
+}
+
+.col3 {
+	background: #333D79FF;
+	color: white;
+	text-align: center;
+	font-size: 18px;
+}
+
+.col1 a {
+		color: white;
+}
+
+.col2 a {
+		color: white;
+}
+
+.col3 a {
+		color: white;
+}
+footer {
+		clear: both;
+		font-family: Arial;
+		font-size: 13px;
+		float: right;
+}
+
+.p-title {
+		font-family: times new roman;
+		font-size: 60px;
+}
+.form {
+		padding-left: 250px;
+		padding-right: 250px;
+		padding-top: 20px;
+		height: 1500px;
+}
+
+.hand_Shake {
+		vertical-align: middle;
+	
+}
+.hand_Shake input {
+		clear: left;
+}
+
+.hand_Shake {
+		width:60px;
+		display:inline-block;
+}
+.physical {
+		vertical-align: middle;
+	
+}
+.physical input {
+		clear: left;
+}
+
+.physical {
+		width:45px;
+		display:inline-block;
+}.hug {
+		vertical-align: middle;
+	
+}
+.hug input {
+		clear: left;
+}
+
+.hug {
+		width:30px;
+		display:inline-block;
+}
+.general_Touch {
+		vertical-align: middle;
+	
+}
+.general_Touch input {
+		clear: left;
+}
+
+.general_Touch {
+		width:55px;
+		display:inline-block;
+}
+
+.long_Duration_Body_Contact {
+		vertical-align: middle;
+	
+}
+
+.long_Duration_Body_Contact input {
+		clear: left;
+}
+
+
+.long_Duration_Body_Contact {
+		width:40px;
+		display:inline-block;
+}
+input {
+		width: 100%;
+}
+
+.submit {
+		margin-top: 50px;
+		float: right;
+		width: 150px;
+		background-color: green;
+		color: white;
+}
+
+.submit:hover {
+		background: black;
+}
+
+.stats {
+		width: 50%;	
+}
+
+.p1 {
+		font-family: Arial;
+		font-size: 16px;
+		width: 87%;
+		left: 20%;
+		padding-left: 130px;
+}
+
+h3 {
+		padding-left:110px;
+		padding-top: 10px;
+		padding-bottom: 0;
+		left: 20%;
+}
+
+h4 {
+		padding-left: 110px;
+		left: 20%;
+}
+
+h5 {
+		padding-left: 110px;
+		left: 20%;
+}
+
+h2 {
+		padding-left: 110px;
+		padding-bottom: 5px;
+		left: 20%;
+}
+
+footer {
+		clear: both;
+		font-family: Arial;
+		font-size: 13px;
+		float: right;
+}
